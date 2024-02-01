@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>Encriptador challenge</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="Imagenes/Logo.svg" alt="logo">
+    </header>
+    <main>
+        <section class="seccion1">
+            <div class="textcontainerbox">
+                <textarea placeholder="Ingrese el texto aqui" class="containerbox"></textarea>
+            </div>
+            <div class="alert">
+                <img src="Imagenes/alert.svg" alt="alerta">
+                <p>Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="container-button">
+                <input type="button" class="btn-ecrypt" value="Ecrypt">
+                <input type="button" class="btn-decrypt" value="Decrypt">
+            </div>
+        </section>
+        <section class="seccion2">
+            <div class="containerguy">
+                <img src="Imagenes/Muñeco.svg" alt="guy">
+            </div>
+            <div class="container-parr">
+                <h3>Nigún mensaje fue <br> encontrado</h3>
+                <p>Ingresa el texto que desees encriptar o <br> desencriptar.</p>
+            </div>
+            <div class="container-copy">
+                <input type="button" class="btn-copy" value="Copy">
+            </div>
+            <div class="container-result">
+                <p class="text-result"></p>
+            </div>
+
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
